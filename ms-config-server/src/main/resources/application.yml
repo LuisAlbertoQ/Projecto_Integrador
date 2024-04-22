@@ -11,7 +11,7 @@ spring:
           searchPaths: config-data
           #username:
           #password:
-          default-label: jhoel
+          default-label: Jhoel
   security:
     user:
       name: root
