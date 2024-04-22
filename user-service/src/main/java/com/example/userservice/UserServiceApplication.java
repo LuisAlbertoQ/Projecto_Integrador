@@ -17,7 +17,7 @@ public class UserServiceApplication {
     @Bean
     public OpenAPI customOpenAPI(){
         return new OpenAPI().info(new Info()
-                .title("OPEN API MICROSERVICIO USER")
+                .title("OPEN API MICROSERVICIO USUARIOS")
                 .version("0.0.1")
                 .description("servicios web usuarios")
                 .termsOfService("http:// swagger.io/terms")
