@@ -10,7 +10,7 @@ spring:
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
-    show_sql: true
+    show-sql: true
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/ms-user
