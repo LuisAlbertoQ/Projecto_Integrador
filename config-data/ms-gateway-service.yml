@@ -25,3 +25,7 @@ spring:
           uri: lb://ms-notificaciones-service
           predicates:
             - Path=/notificacion/**
+        - id: ms-documentos-service
+          uri: lb://ms-documentos-service
+          predicates:
+            - Path=/documento/**
